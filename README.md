@@ -24,4 +24,4 @@ Usage:
   
 - press shift + comma (,) on your keyboard to bring up the pie menu
 - "Merge Anims" merges the previously named ragdoll and death anims
-- and "AGR (.fbx) exports each player model with the filename for each .fbx using the name of each skeleton, and then replaces the actual skeleton name to a user set name.
+- and "AGR (.fbx)" exports each player model with the filename for each .fbx using the name of each skeleton, and then replaces the actual skeleton name to a user set name.
