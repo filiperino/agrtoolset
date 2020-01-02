@@ -1,6 +1,6 @@
 # agrtoolset
 
-installation:
+Installation:
 
 1.clone repo or download as .zip
 
@@ -8,3 +8,5 @@ installation:
 
 3.in blender go to Edit > Preferences > Add-ons > Install..., and choose the export.py file.
 
+Usage:
+- press shift + comma (,) on your keyboard to bring up the pie menu
