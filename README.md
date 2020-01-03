@@ -26,3 +26,6 @@ Usage:
   - eg. player0_movement
 
 - "AGR (.fbx)" exports each player model with the filename for each .fbx using the name of each skeleton, and then replaces the actual skeleton name to a user-defined variable.
+
+Known Issues:
+- Make sure the frame rate in your Blender 2.8x project matches the frame rate of the .agr file, otherwise it won't merge the actions.
