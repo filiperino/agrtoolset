@@ -2,7 +2,7 @@
 
 Introduction:
 
-The add-on "agrtoolset" is a temporary set of tools used for a quicker workflow with .agr files. It is based upon Dardhandrob's Source-AGR-Import-Export-FBX (AIOX) add-on for blender 2.8, but it has been changed so heavily i decided to put it up on GitHub.
+The add-on "agrtoolset" is a temporary set of tools used for a quicker workflow with .agr files. It is based upon Darkhandrob's Source-AGR-Import-Export-FBX (AIOX) add-on for blender 2.8, but it has been changed so heavily i decided to put it up on GitHub.
 
 Features:
 
