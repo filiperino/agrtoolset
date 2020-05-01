@@ -13,7 +13,7 @@ Installation:
 
 1. Go to releases tab, and download the latest version.
 
-2. In Blender 2.8x go to Edit > Preferences > Add-ons > Install..., and choose the export.py file.
+2. In Blender 2.8x go to Edit > Preferences > Add-ons > Install..., and choose the .zip file.
 
 3. Done
 
