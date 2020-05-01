@@ -112,7 +112,7 @@ def register() -> None:
 def unregister() -> None:
     for cls in classes:
         bpy.utils.unregister_class(cls)
-    bpy.context.window_manager.keyconfigs.addon.keymaps.
+    #bpy.context.window_manager.keyconfigs.addon.keymaps.
 
 
 if __name__ == "__main__":
