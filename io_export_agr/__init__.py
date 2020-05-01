@@ -7,7 +7,7 @@ from . import export_agr
 bl_info = {
     "name": "Export AGR",
     "author": "filiperino",
-    "version": (1, 0, 1),
+    "version": (1, 1, 1),
     "blender": (2, 82, 0),
     "location": "File > Export",
     "description": "Utility for exporting and manipulating AGR",
@@ -74,7 +74,7 @@ class MergeAnims(bpy.types.Operator):
     bl_label = "Merge Anims"
 
     def execute(self, context):
-        export_agr.MergeAnims(self,context)
+        export_agr.MergeAnims(self, context)
         return {'FINISHED'}
 
 class io_export_agr_menu(Menu):

@@ -6,7 +6,7 @@ def MergeAnims(self, context):
     # Find first Ragdoll and then Run Animation
     for CurrMdl in bpy.data.objects:
         # Find Player Models (which are named tm or ctm)
-        if (CurrMdl.name.find("afx.") != -1 and CurrMdl.name.find("tm_") != -1):
+        if (CurrMdl.name.find("afx.") != -1 and CurrMdl.name.find("tm_") != -1 or CurrMdl.name.find("t_") != -1):
             
             # Find Ragdoll Animation and Changing Point of hide_render channel
             CurrHideRender = CurrMdl.animation_data.action.fcurves[0].keyframe_points
@@ -61,7 +61,6 @@ def MergeAnims(self, context):
         PlayerAnims[i][0].name = PlayerAnims[i][0].name + "RunAndDeathAnim"
         
     print("Merging Run and Death Animation finished\n")
-    return {'FINISHED'}
 
 #class AgrtoFbx(bpy.types.Operator):
 def AgrtoFbx(self, context):
