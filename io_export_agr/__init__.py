@@ -7,7 +7,7 @@ from . import export_agr
 bl_info = {
     "name": "Export AGR",
     "author": "filiperino",
-    "version": (2, 0, 0),
+    "version": (1, 0, 0),
     "blender": (2, 82, 0),
     "location": "File > Export",
     "description": "Utility for exporting and manipulating AGR",
