@@ -11,11 +11,11 @@ Features:
 
 Installation:
 
-1. Clone repo or download as .zip
+1. Go to releases tab, and download the latest version.
 
-2. Extract .zip into a folder
+2. In Blender 2.8x go to Edit > Preferences > Add-ons > Install..., and choose the export.py file.
 
-3. In Blender 2.8x go to Edit > Preferences > Add-ons > Install..., and choose the export.py file.
+3. Done
 
 Usage:
 - Press shift + comma (,) on your keyboard to bring up the pie menu
@@ -25,7 +25,7 @@ Usage:
   - player(number)_movement
   - eg. player0_movement
 
-- "AGR (.fbx)" exports each player model with the filename for each .fbx using the name of each skeleton, and then replaces the actual skeleton name to a user-defined variable.
+- "AGR (.fbx)" exports each player model with the filename for each .fbx using the name of each skeleton, and then replaces the actual skeleton name to a user-defined variable. Currently, only after renaming the armatures the export works.
 
 Known Issues:
 - Make sure the frame rate in your Blender 2.8x project matches the frame rate of the .agr file BEFORE you import, otherwise it won't merge the actions.
