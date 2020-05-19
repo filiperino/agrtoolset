@@ -1,5 +1,7 @@
 # io_export_agr
 
+**NOTE! The add-on is highly untested at the moment. There certainly is alot of issues with it so use it at your own risk.**
+
 Introduction:
 
 The add-on "io_export_agr" is a temporary set of tools used for a quicker workflow with .agr files. It is based upon Darkhandrob's Source-AGR-Import-Export-FBX (AIOX) add-on for blender 2.8, but it has been changed so heavily i decided to put it up on GitHub.
@@ -19,8 +21,8 @@ Installation:
 
 Usage:
 - Press shift + comma (,) on your keyboard to bring up the pie menu
-- "Merge Anims" merges the ragdoll and death anims
-- For export, name your players sequentially with this syntax:
+- "Merge Anims" merges the recordInvisible 1 animation tracks
+- For export, **name your players sequentially with this syntax**:
 
   - player(number)_movement
   - eg. player0_movement
