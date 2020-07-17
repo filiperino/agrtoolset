@@ -1,6 +1,6 @@
 # io_export_agr
 
-**NOTE! The add-on is highly untested at the moment. There certainly are alot of issues with it so use it at your own risk.**
+**NOTE! The add-on is highly untested at the moment. There certainly are alot of issues with it so use it at your own risk. The FBX Export should work flawlessly though.**
 
 Introduction:
 
